@@ -1,0 +1,119 @@
+/* Definindo a nova fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/63/11/bb/6311bb201b40bcaede5ce398337d7f4d.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Mudança para branco para maior contraste com o gradiente */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;  /* Largura da logo */
+    height: 100px; /* Altura da logo */
+    object-fit: cover; /* Garante que a imagem não seja distorcida */
+    border-radius: 50%; /* Deixa a logo circular (opcional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+    margin-right: 20px; /* Espaçamento entre a logo e o texto no header */
+}
+
+.header {
+    background: linear-gradient(to right, black, red);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.about, .menu, .contact, .location {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff; /* Mantendo o texto branco */
+}
+
+p {
+    font-size: 1.2em;
+    color: #eee; /* Texto em cinza claro para contraste */
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparência leve */
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.menu-item p {
+    font-size: 1.1em;
+    color: #ddd;
+}
+
+.contact ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.location iframe {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: linear-gradient(to right, black, red);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: static; /* Rodapé fixo removido, agora estático */
+    width: 100%;
+}
